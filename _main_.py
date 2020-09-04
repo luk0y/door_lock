@@ -1,8 +1,17 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+
 import speech_recognition as sr
+
 from queries import *
+
 from subprocess import call
+
 import pyttsx3
+
 import time 
+
+
 
 engine = pyttsx3.init()
 r = sr.Recognizer()
